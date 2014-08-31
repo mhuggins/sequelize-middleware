@@ -43,7 +43,7 @@ The final parameter is specific to the middleware and takes one of two options:
 2. A string representing the path to a file to be imported via
    [sequelize.import](http://sequelizejs.com/docs/1.7.8/models#import), e.g.:
 
-        app.use(sequelize('db', path.resolve(__dirname) + 'app/models'));
+        app.use(sequelize('db', path.resolve(__dirname, 'app/models')));
 
    Wherein your `app/models/index.js` file might look something like:
 
