@@ -1,0 +1,21 @@
+{
+  "name": "sequelize-middleware",
+  "version": "1.0.0",
+  "description": "Sequelize middleware for your Express or Connect app.",
+  "main": "lib/middleware.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhuggins/sequelize-middleware.git"
+  },
+  "keywords": [
+    "sequelize",
+    "express",
+    "connect",
+    "middleware"
+  ],
+  "author": "Matt Huggins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhuggins/sequelize-middleware/issues"
+  }
+}
