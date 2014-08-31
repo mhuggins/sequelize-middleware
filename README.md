@@ -77,7 +77,7 @@ The final parameter is specific to the middleware and takes one of two options:
     structure:
 
         module.exports = function (db, DataTypes) {
-          db.defined( ... );
+          return db.defined( ... );
         };
 
 ## License
